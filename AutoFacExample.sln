@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Entities", "00-Entities", "{92C007CE-CBFA-4E65-8CC4-578495131397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Services", "01-Services", "{31E91FF3-D209-48BD-98A0-4B033991A85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Data", "01-Data", "{60E049B6-5449-4D37-B0AD-7B4D34A496A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Business", "02-Business", "{FFC26005-6D5F-408F-BF73-AD51BB0CB32C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Presentation", "03-Presentation", "{13A411AC-8EB4-4941-A175-94802C1700B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Assemblies", "00-Assemblies", "{87B1AC16-9DE7-4F67-ABFC-FCFE00333BD1}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Log4net.Helper.Logging.dll = Assemblies\Log4net.Helper.Logging.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Tests", "04-Tests", "{0887AD36-9D86-4230-8139-8911455C47C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Models", "00-Models", "{A717FB73-B222-4EAA-832B-B8DB2278A00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacExample.Tests.Log4Net", "AutoFacExample.Tests.Log4Net\AutoFacExample.Tests.Log4Net.csproj", "{48BF0253-487F-4660-9C1E-CBBE2169209E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacExample.Business.Encryption", "ClassLibrary1AutoFacExample.Business.Encryption\AutoFacExample.Business.Encryption.csproj", "{D46FE7CC-499A-4BA7-A27D-92057894239D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFacExample.Tests.EncryptDecrypt", "AutoFacExample.Tests.EncryptDecrypt\AutoFacExample.Tests.EncryptDecrypt.csproj", "{4FB685DC-26A3-4F1B-8233-17C3F6E60F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48BF0253-487F-4660-9C1E-CBBE2169209E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BF0253-487F-4660-9C1E-CBBE2169209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BF0253-487F-4660-9C1E-CBBE2169209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BF0253-487F-4660-9C1E-CBBE2169209E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46FE7CC-499A-4BA7-A27D-92057894239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46FE7CC-499A-4BA7-A27D-92057894239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46FE7CC-499A-4BA7-A27D-92057894239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46FE7CC-499A-4BA7-A27D-92057894239D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB685DC-26A3-4F1B-8233-17C3F6E60F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB685DC-26A3-4F1B-8233-17C3F6E60F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB685DC-26A3-4F1B-8233-17C3F6E60F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB685DC-26A3-4F1B-8233-17C3F6E60F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48BF0253-487F-4660-9C1E-CBBE2169209E} = {0887AD36-9D86-4230-8139-8911455C47C8}
+		{D46FE7CC-499A-4BA7-A27D-92057894239D} = {FFC26005-6D5F-408F-BF73-AD51BB0CB32C}
+		{4FB685DC-26A3-4F1B-8233-17C3F6E60F8B} = {0887AD36-9D86-4230-8139-8911455C47C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6676747C-A6E4-45F8-AAFB-5309E1C55BD9}
+	EndGlobalSection
+EndGlobal
